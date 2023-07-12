@@ -1,0 +1,41 @@
+[
+{
+	"name": "nguyễn văn a",
+	"gender": true,
+	"marks": 7.5,
+	"contact": {
+		"email": "vana@gmail.com",
+		"phone": "019312301"
+	},
+	"subject": [
+		"web205",
+		"com1019"
+	]
+},
+{
+	"name": "nguyễn văn b",
+	"gender": true,
+	"marks": 6,
+	"contact": {
+		"email": "vanb@gmail.com",
+		"phone": "019312301"
+	},
+	"subject": [
+		"web205",
+		"com1019"
+	]
+},
+{
+	"name": "nguyễn văn c",
+	"gender": true,
+	"marks": 10,
+	"contact": {
+		"email": "vanc@gmail.com",
+		"phone": "019312301"
+	},
+	"subject": [
+		"web205",
+		"com1019"
+	]
+}
+]

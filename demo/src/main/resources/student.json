@@ -1,0 +1,13 @@
+{
+	"name": "nguyễn văn a",
+	"gender": true,
+	"marks": 7.5,
+	"contact": {
+		"email": "vana@gmail.com",
+		"phone": "019312301"
+	},
+	"subject": [
+		"web205",
+		"com1019"
+	]
+}

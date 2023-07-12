@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var sv={
+				"name":"nguyễn văn a",
+				"gender": true,
+				"marks":7.5,
+				"contact":{
+					"email":"vana@gmail.com",
+					"phone":"019312301",
+				},
+				"subject":["web205","com1019"]
+		}
+		//xuất
+		console.log(sv);
+		//truy xuất
+		sv.name = sv['name'].toUpperCase();
+		console.log(sv.name,sv.contact.email,sv.subject[0])
+		
+		for(var key in sv){
+			console.log(key,sv[key])
+		}
+		var text = JSON.stringify(sv)
+		console.log(text)
+		var obj = JSON.parse(text);
+		console.log(obj,obj.name)
+	</script>
+</body>
+</html>
